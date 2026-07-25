@@ -2,7 +2,7 @@
 
 A modern, responsive agriculture machinery website built to showcase products, manage catalog items, support seller/admin workflows, calculate EMI, and handle customer inquiries through WhatsApp and lead management.
 
-![Home Page](./screenshots/home.png)
+![Home Page](./Screenshots/home.png)
 
 ## Table of Contents
 - [About the Project](#about-the-project)
