@@ -2,7 +2,7 @@
 
 A modern, responsive agriculture machinery website built to showcase products, manage catalog items, support seller/admin workflows, calculate EMI, and handle customer inquiries through WhatsApp and lead management.
 
-![Home Page](./Screenshots/home.png)
+![Home Page](./Screenshot/home.png)
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -43,56 +43,58 @@ This project was designed with a strong brand identity using a green and brown t
 
 ## Screenshots
 
+> Note: If any file names contain spaces, GitHub can still render them, but renaming them to simple names like `home.png` or using URL-encoded paths is more reliable.
+
 ### Home Page
 Brand hero section with featured products and main navigation.
 
-![Home Page](./screenshots/home.png)
+![Home Page](./Screenshot/home.png)
 
 ### Navigation Bar
 Top navigation with catalog, EMI calculator, portal dashboard, logout, and cart access.
 
-![Navbar](./screenshots/navbar.png)
+![Navbar](./Screenshot/navbar.png)
 
 ### Product Catalog
 Searchable and filterable catalog for browsing machinery products.
 
-![Product Catalog](./screenshots/items.png)
+![Product Catalog](./Screenshot/items.png)
 
 ### Seller Dashboard / Add Item
 Admin-style panel for adding and managing catalog items.
 
-![Add Item](./screenshots/add-item.png)
+![Add Item](./Screenshot/add%20item.png)
 
 ### Seller Login
 Secure login interface for seller access.
 
-![Login Page](./screenshots/login.png)
+![Login Page](./Screenshot/login.png)
 
 ### EMI Calculator
 Loan estimation tool to calculate monthly EMI before purchase.
 
-![EMI Calculator](./screenshots/emi-calculator.png)
+![EMI Calculator](./Screenshot/EMI%20Calculator.png)
 
 ### Cart / Inquiry List
 Shows selected products, total estimate, and WhatsApp inquiry action.
 
-![Cart](./screenshots/cart.png)
+![Cart](./Screenshot/Cart.png)
 
 ### Alerts and Popups
 Custom confirmation and logout alerts for a better user experience.
 
-![Alert](./screenshots/alert.png)
-![Logout Alert](./screenshots/logout-alert.png)
+![Alert](./Screenshot/alert.png)
+![Logout Alert](./Screenshot/logout%20alert.png)
 
 ### CRM / Lead Management
 Customer follow-up and marketing section for lead handling.
 
-![CRM](./screenshots/sms-alert-crm.png)
+![CRM](./Screenshot/sms%20alert%20crm.png)
 
 ### Footer
 Company contact details and important social links.
 
-![Footer](./screenshots/footer.png)
+![Footer](./Screenshot/footer.png)
 
 ## Contact & Social Links
 
@@ -139,13 +141,14 @@ project-root/
 ├── css/
 ├── js/
 ├── images/
-└── screenshots/
+└── Screenshot/
 ```
 
 ## Notes
 
 - Replace placeholder social links with your actual YouTube, Instagram, Maps, and WhatsApp links.
-- If your screenshot filenames are different, update the image paths in this README.
+- Keep the folder name exactly `Screenshot` if that is your real folder name in the project root.
+- If any screenshot filename changes, update the image paths in this README.
 - This project is a good fit for GitHub because it shows UI design, business features, and real-world user flow.
 
 ## License
