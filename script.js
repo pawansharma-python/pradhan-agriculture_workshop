@@ -133,7 +133,7 @@ function showLoader(show) {
 
 // Fetch data from Google Sheet
 async function fetchProducts() {
-    if (SCRIPT_URL === "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE") {
+    if (SCRIPT_URL === "https://script.google.com/macros/s/AKfycbx-tkbgPa8sQ_iXWj3cr5zKI8jEX2W3t-aK8YLNvcdpY_tPP3-6sgi3vnilHa5xnBzpcQ/exec") {
         // Fallback to local default data if API is not set
         products = [
             { id: 1, name: "Premium Red Seed Drill (11 Tyner)", category: "Seed Drill", badge: "Best Seller", desc: "Heavy-duty Seed Drill for precise sowing and fertilizing.", image: "https://images.unsplash.com/photo-1628543105335-512ce24e8371?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", price: 65000, discount: 10 },
@@ -381,7 +381,7 @@ function handleFileUpload(event) {
 // Add/Update to Google Sheet API
 document.getElementById('productForm').addEventListener('submit', async function (e) {
     e.preventDefault();
-    if (SCRIPT_URL === "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE") {
+    if (SCRIPT_URL === "https://script.google.com/macros/s/AKfycbx-tkbgPa8sQ_iXWj3cr5zKI8jEX2W3t-aK8YLNvcdpY_tPP3-6sgi3vnilHa5xnBzpcQ/exec") {
         Swal.fire('API Missing', 'Please paste the Google Apps Script Web App URL in SCRIPT_URL variable at the top of JS code to make database live.', 'warning');
         return;
     }
@@ -452,7 +452,7 @@ function editProduct(id) {
 async function deleteProduct(id) {
     Swal.fire({ title: 'Delete Machine?', icon: 'warning', showCancelButton: true, confirmButtonColor: '#DD2C00', confirmButtonText: 'Delete' }).then(async (result) => {
         if (result.isConfirmed) {
-            if (SCRIPT_URL === "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE") return;
+            if (SCRIPT_URL === "https://script.google.com/macros/s/AKfycbx-tkbgPa8sQ_iXWj3cr5zKI8jEX2W3t-aK8YLNvcdpY_tPP3-6sgi3vnilHa5xnBzpcQ/exec") return;
 
             showLoader(true);
             try {
